@@ -1,7 +1,7 @@
 name: Daily Standup
 on:
   schedule:
-  - cron: '* */5 * * *'
+  - cron: '* */1 * * *'
 
 jobs:
   daily_standup:
