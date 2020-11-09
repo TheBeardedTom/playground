@@ -1,7 +1,7 @@
 name: Daily Standup
 on:
   schedule:
-  - cron: * * * * *  # Every minute – https://crontab.guru
+  - cron: '* * * * *'
 
 jobs:
   daily_standup:
