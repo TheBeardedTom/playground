@@ -21,6 +21,6 @@ jobs:
         pinned: true
         close-previous: true
         template: ".github/ISSUE_TEMPLATE/standup.md" # assignees, labels will be overridden if present in YAML header
-        rotate-assignees: false
+        rotate-assignees: true
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
